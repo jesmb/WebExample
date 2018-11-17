@@ -1,6 +1,6 @@
 @font-face {font-family: celta; src:url(Tipo/CELTA.ttf);}
 
-body {font-size: 25px; color: white; display: block; text-align: justify; font-family: sylfaen; margin: 0; line-height:1.2em;}
+body {font-size: 25px; color: white; display: block; font-family: sylfaen; margin: 0; line-height:1.2em;}
 
 /* Color logo: #109FC6 */
 
@@ -15,6 +15,7 @@ article {padding:3%;}
 ul {margin:0; padding-left:1em;}
 li {list-style-type: none; margin: 1% auto;}
 hr {margin: 10% 0px 5%;}
+
 
 header {}
 header img {width:20%; height: auto; min-width: 300px;}
@@ -74,7 +75,7 @@ a:link {color: white;}
 #recursos aside {background-color: #109FC6; margin: 3% 7.1% 3% 4%; padding: 2%; overflow: auto;}
 #recursos aside article{background-color: #109FC6; height:auto; margin: 3% 4%; padding: 2%; overflow: auto;}
 #recursos aside article{width:100%; margin:0px;}
-#recursos img {width: 90%; height:auto; margin: auto 5%;}	
+#recursos img {width: 90%; height:auto; margin: auto 5%; background-color: white}	
 #recursos video {width:90%; height: auto; margin: auto 5%;}
 #recursos .link {float: right; padding: 3px 15px 12px 28px; margin: 0 0.5%; text-align: justify; background-image: url(Imaxes/plumab.png); background-repeat: no-repeat; background-color: rgba(255, 255, 255, 0.1);}
 #recursos .link:hover {float: right; margin: 0 0.5%; text-align: justify; color: #118DAA; background-image: url(Imaxes/pluma.png); background-repeat: no-repeat; background-color: white;}
