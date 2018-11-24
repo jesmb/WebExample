@@ -7,7 +7,7 @@ body {font-size: 25px; color: white; display: block; font-family: sylfaen; margi
 
 h1 {font-size:145%; margin: auto;  font-variant:small-caps;}
 h2 {font-size:115%; margin: 3% auto 1% -2%; text-decoration: underline;}
-#inicio h1 {margin: 3% 2%; font-family: celta; font-variant: small-caps; font-size:145%;}
+#inicio h1 {margin: 3% 2%; font-family: celta, roboto, monserrat; font-variant: small-caps; font-size:145%;}
 a {text-decoration: none;}
 figure {margin:0px;}
 figcaption {text-align: center;}
@@ -29,7 +29,7 @@ nav {
 	clear: both; 
 	background-color: #118DAA; 
 	text-align:center; 
-	font-family: celta; 
+	font-family: celta, roboto, monserrat; 
 	font-variant: small-caps;
 	}
 nav UL {
