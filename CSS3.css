@@ -76,7 +76,7 @@ a:link {color: white;}
 #recursos aside article{background-color: #109FC6; height:auto; margin: 3% 4%; padding: 2%; overflow: auto;}
 #recursos aside article{width:100%; margin:0px;}
 #recursos img {width: 90%; height:auto; margin: auto 5%; background-color: white}	
-#recursos video {width:90%; height: auto; margin: auto 5%;}
+#recursos video, #recursos iframe {width:90%; height: auto; margin: auto 5%;}
 #recursos .link {float: right; padding: 3px 15px 12px 28px; margin: 0 0.5%; text-align: justify; background-image: url(Imaxes/plumab.png); background-repeat: no-repeat; background-color: rgba(255, 255, 255, 0.1);}
 #recursos .link:hover {float: right; margin: 0 0.5%; text-align: justify; color: #118DAA; background-image: url(Imaxes/pluma.png); background-repeat: no-repeat; background-color: white;}
 #recursos aside h1 {text-align: center; margin-bottom: 3%;}
@@ -229,7 +229,13 @@ body {font-size:1em;}
 
 @media only screen and (max-width: 320px){
 	
+	header img {width:100%; height: auto; min-width: 50px;}
+	
 	#Carousel {height: 350px;}
+	
+	nav LI { 
+	min-width: 50px; 
+	}
 
 	
 }
